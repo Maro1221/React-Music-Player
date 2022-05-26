@@ -1,0 +1,57 @@
+.Navbar{
+    background-color: #242629;
+    height: 14vh;
+    border-bottom: 3px solid #7f5af0 !important;
+    
+;
+
+}
+.logoContainer img {
+    width: auto!important;
+    height: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.logoContainer{
+    height: 10vh !important;
+    margin-right: 0 !important;
+}
+.Row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-right{
+text-align: right;
+}
+
+
+@media only screen and (max-width:576px) {
+   
+   
+   
+   
+   
+    .logoContainer{
+  
+
+        height: 10vh !important;
+     
+    }
+    .upload{
+        margin-top: 11% !important;
+        font-size: 12px;
+        margin-left: 20px!important;
+    }
+    .Navbar{
+        background-color: #242629;
+        height: 15vh;
+        border-bottom: 3px solid #7f5af0 !important;
+        
+    ;
+    
+    }
+  }
+  

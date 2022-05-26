@@ -1,0 +1,26 @@
+
+
+async function addFirstCurret(){
+  const curretsong="1"
+
+
+  try {
+
+
+
+
+    const id = await  db.curretplay.add({
+         
+      curretsong
+                    });
+    
+               
+    
+      
+                  } catch (error) {
+                  }  
+                  
+                  
+    
+
+}

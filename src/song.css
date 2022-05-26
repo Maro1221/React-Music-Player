@@ -1,0 +1,307 @@
+
+table {
+ 
+    background-color: #242629;
+    table-layout: fixed;
+width: 100%;
+border-bottom: 3px solid #7f5af0 !important;
+  }
+
+  .musicPleace{
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #242629;
+    min-height: 81vh !important;
+
+
+  }
+th{
+  min-width: 33%;
+
+}
+
+tbody{
+  height:58vh;   
+  overflow: auto; 
+         
+ }
+tr {
+  width: 100%;
+  display: inline-table;
+  table-layout: fixed;
+  }
+  
+
+.material-symbols-edit {
+    color:#7f5af0;
+float: right;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    
+  }
+
+
+
+  .material-symbols-play {
+
+display: none;}
+
+.pointer{
+    cursor: pointer;
+    user-select: none;
+}
+input[type="text"]:disabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 27vw;
+    margin: 0 !important;
+    line-height: 1.3 !important;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
+  }
+  input[type="text"]:enabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 27vw;
+    margin: 0 !important;
+
+
+
+    
+    line-height: 1.3 !important;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
+  }
+
+
+td, tr, th{
+    background-color: 242629 !important;
+    padding: 25px !important;
+    color: #94a1b2
+
+
+}
+th{
+    color: #fffffe;
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242629;}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7f5af0;
+}
+
+.crop { overflow:hidden; white-space:nowrap; text-overflow:ellipsis;  }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+  input[type="text"]:disabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 23vw;
+    margin: 0 !important;
+
+
+    
+  }
+  input[type="text"]:enabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 23vw;
+    margin: 0 !important;
+
+
+
+    
+  }
+
+
+
+}
+
+@media only screen and (max-width:768px) {
+
+  .Active{
+
+    display:inline-block !important; 
+    width: 88.4% !important;
+  }
+  .notActive{
+    display: none !important;
+
+  }
+
+
+
+  input[type="text"]:disabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 88.4% !important;
+    margin: 0 !important;
+    
+
+
+    
+  }
+  input[type="text"]:enabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 88.4% !important;
+    margin: 0 !important;
+
+
+
+    
+  }
+
+  .material-symbols-play {
+    display: inline;
+
+    font-size: 19px !important;
+    position: relative !important;
+    top: 3px;
+    right: 10px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48 
+  }
+
+
+th{
+  border-bottom: 3px solid #7f5af0 !important;
+
+}
+}
+
+
+@media only screen and (max-width:576px) {
+  .material-symbols-edit {
+    position: relative;
+    bottom: 26px;
+    color:#7f5af0;
+float: right;
+margin-left: 66px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    
+  }
+
+
+  .Active{
+
+    display:inline-block !important; 
+    width: 99vw !important;
+  }
+  .notActive{
+    display: none !important;
+
+  }
+   
+   td{
+     padding:18px !important;
+   }
+   
+   
+.h5{
+  font-size: 0.9rem;
+}
+
+tbody{
+  height:51vh;   
+  overflow: auto; 
+         
+ }
+
+ .musicPleace{
+
+  height:10vh !important;
+
+
+}
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+
+  input[type="text"]:disabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 21vw !important;
+    margin: 0 !important;
+
+
+    
+  }
+  input[type="text"]:enabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 21vw !important;
+    margin: 0 !important;
+
+
+
+    
+  }
+}
+
+
+
+@media only screen and (min-width:992px) and (max-width:1400px) {
+
+  input[type="text"]:disabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 24vw !important;
+    margin: 0 !important;
+
+
+    
+  }
+  input[type="text"]:enabled {
+    background: #242629;
+    border: none;
+    color: #94a1b2;
+    width: 24vw !important;
+    margin: 0 !important;
+
+
+
+    
+  }
+}
