@@ -1,14 +1,7 @@
-import Dexie from 'dexie';
-import React,{useState, setName} from 'react';
-import { useLiveQuery } from 'dexie-react-hooks'
+import Dexie from "dexie";
 
-
-
-
-export const db = new Dexie('mDatabase');
+export const db = new Dexie("mDatabase");
 db.version(1).stores({
-  music: '++id, name, song, album, artist', curretplay:  '++id, cname'
+  music: "++id, name, song, album, artist",
+  curretplay: "++id, cname",
 });
-
-
-

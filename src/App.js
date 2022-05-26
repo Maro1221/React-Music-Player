@@ -1,22 +1,15 @@
-import './App.css';
-import {db } from './db.js'
-import {Trail, } from './trial.js'
-import {AddMusicForm } from './addmusicform.js'
-import {MusicList } from './MusicList.js'
-import { Navbar } from './navbar';
-
-
+import React from "react";
+import "./App.css";
+import { MusicList } from "./MusicList.js";
+import { Navbar } from "./navbar";
 
 function App() {
   return (
-   <>
-   <Navbar/>
-  <MusicList  />
-
-
-  </>
-
-  )
+    <>
+      <Navbar />
+      <MusicList />
+    </>
+  );
 }
 
 export default App;
