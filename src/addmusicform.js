@@ -20,6 +20,7 @@ export function AddMusicForm() {
         type="file"
         id="upload"
         style={{ display: "none" }}
+        accept=".mp3, .flac"
         onChange={(e) => setSong(e.target.files[0])}
       />
       <span
