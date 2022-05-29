@@ -145,12 +145,14 @@ export class Song extends React.Component {
             this.props.ActiveTab == 0 ? "Active" : "notActive"
           } `}
         >
-          <span
+        <div className="col-12">
+
+          <div
             className="material-symbols-outlined material-symbols-play pointer"
             onClick={() => this.onLoad()}
           >
             play_circle
-          </span>
+          </div>
           <span
             className="pointer"
             onClick={this.state.isDisabled ? () => this.onLoad() : undefined}
@@ -167,14 +169,14 @@ export class Song extends React.Component {
               disabled={this.state.isDisabled}
             ></input>{" "}
           </span>
-          <div
+          <span
             onClick={(e) => this.editName(e.target.value)}
             defaultValue={this.props.name}
             className=" pointer fixEdit material-symbols-outlined material-symbols-edit"
           >
             edit
-          </div>{" "}
-        </td>
+          </span>{" "}
+          </div></td>
         <td
           className={`h5  pointer ${
             this.props.ActiveTab == 1 ? "Active" : "notActive"

@@ -43,8 +43,3 @@ html {
   height: fill-available;
   height: -webkit-fill-available;
 }
-@media only screen and (max-width:576px) {
-  .uploadButton{
-    margin-top: 14% !important;
-font-size: 25px !important;  }
-}

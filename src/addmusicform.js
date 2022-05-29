@@ -25,9 +25,9 @@ export function AddMusicForm() {
       <span
         style={{ fontSize: "42px", color: "#7f5af0" }}
         onClick={() => uploadFile()}
-        className=" ms-2  text-left   pointer uploadButton material-symbols-outlined"
+        className=" ms-3      pointer uploadButton material-symbols-outlined"
       >
-        add_circle
+            add_circle
       </span>
     </>
   );
