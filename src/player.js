@@ -128,14 +128,14 @@ export function Player(props) {
         <source src={props.pMusic} type="audio" />
       </audio>
       <div className="row">
-        <div className="musicBox col-5  col-xl-2 text-start    ms-5">
+        <div className="musicBox col-4  col-xl-2 text-start    ms-5">
           <p className="   name">{props.name}</p>
 
           <p className="statsSmall  sP  playerStats">{props.artist}</p>
 
           <p className=" statsSmall  sP playerStats">{props.album}</p>
         </div>
-        <div className="col-7 playerBox col-xl-9 mx-auto">
+        <div className="col-7 playerBox col-xl-9">
           <Bar
             setcMusic={props.setcMusic}
             cMusic={props.cMusic}
@@ -181,7 +181,11 @@ export function Player(props) {
               {loppIcon[props.repeat]}
             </div>
           </div>
-          <div className=" Me  h6 text-end">Made with ❤️ by Marek Wypych</div>
+          <div className=" Me  h6 text-end">
+            <p className="">
+            Made with ❤️ by Marek Wypych
+            </p>
+          </div>
         </div>
       </div>
     </div>

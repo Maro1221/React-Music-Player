@@ -7,8 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #242629;
   color: #fffffe;
-  max-height: 100%!important;
-}
+  min-height: 100%;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -35,10 +36,11 @@ code {
 }
 
 body {
-  min-height: 100vh !important;
+  min-height: 100%;
   min-height: -webkit-fill-available;
 }
 html {
+  height: fill-available;
   height: -webkit-fill-available;
 }
 @media only screen and (max-width:576px) {

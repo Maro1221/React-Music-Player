@@ -37,9 +37,16 @@ font-variation-settings:
 }
 .Me{
     color:#2cb67d;
-    margin-top:10px;
-    height: 45px !important;
+    height: 65px !important;
+    margin-top: 20px;
+    overflow:  visible !important;
+
 }
+.Me p{
+height: 105px;
+overflow:  visible !important;
+
+    }
 
 
 .sP{margin-bottom: 10px;}

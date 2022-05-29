@@ -13,7 +13,7 @@ border-bottom: 3px solid #7f5af0 !important;
     overflow: hidden;
     width: 100%;
     background-color: #242629;
-    min-height: 81vh !important;
+    min-height: 85vh !important;
 
 
   }
@@ -203,15 +203,19 @@ th{
 
 }
 }
+.fixEdit{
+  position: relative;
+  bottom:24px;
+  left:3vw !important;
 
+}
 
 @media only screen and (max-width:576px) {
+  
+  
   .material-symbols-edit {
-    position: relative;
-    bottom: 26px;
+
     color:#7f5af0;
-float: right;
-margin-left: 66px;
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
@@ -224,8 +228,23 @@ margin-left: 66px;
   .Active{
 
     display:inline-block !important; 
-    width: 99vw !important;
+    width: 95vw !important;
+    display: block;
+    -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
   .notActive{
     display: none !important;
 

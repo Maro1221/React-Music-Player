@@ -167,13 +167,13 @@ export class Song extends React.Component {
               disabled={this.state.isDisabled}
             ></input>{" "}
           </span>
-          <span
+          <div
             onClick={(e) => this.editName(e.target.value)}
             defaultValue={this.props.name}
-            className="ms-2  pointer material-symbols-outlined material-symbols-edit"
+            className=" pointer fixEdit material-symbols-outlined material-symbols-edit"
           >
             edit
-          </span>{" "}
+          </div>{" "}
         </td>
         <td
           className={`h5  pointer ${

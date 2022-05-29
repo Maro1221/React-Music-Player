@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useLiveQuery } from "dexie-react-hooks";
-
 import { Song } from "./song.js";
 import { db } from "./db.js";
 import "./song.css";
