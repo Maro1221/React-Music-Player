@@ -14,7 +14,7 @@ export function Navbar() {
 
         <div className=" playerStats mt-2  col-xl-9     text-end col-md-8 col-sm-6	col-5  ">
           
-       <div className="upload"> Dodaj muzykę do biblioteki utwór ➜    </div>        <AddMusicForm />     
+       <div className="upload"> Dodaj muzykę do biblioteki muzycznej ➜    </div>        <AddMusicForm />     
           </div>
 
       </div>
