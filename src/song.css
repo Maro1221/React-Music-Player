@@ -227,7 +227,11 @@ th{
     'opsz' 24
     
   }
-
+  tbody{
+    height:50vh;   
+    overflow: auto; 
+           
+   }
 
   .Active{
 
