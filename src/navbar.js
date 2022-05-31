@@ -12,7 +12,7 @@ export function Navbar() {
           <img className="logo" src={logo} alt="Logo" />
         </div>
 
-        <div className=" playerStats mt-2  col-xl-9     text-end col-md-8 col-sm-6	col-5  ">
+        <div className=" playerStats mt-2  col-xl-9    text-end col-md-8 col-sm-6	col-7  ">
           
        <div className="upload"> Dodaj utwory do biblioteki muzycznej ➜    </div>        <AddMusicForm />     
           </div>
