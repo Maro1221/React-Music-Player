@@ -265,6 +265,7 @@ th{
 
 tbody{
   overflow: auto; 
+  min-width: 40vh;
          
  }
 
