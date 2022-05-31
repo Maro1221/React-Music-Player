@@ -7,10 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #242629;
   color: #fffffe;
-  min-height: 100%;
-  min-height: fill-available;
-  min-height: -webkit-fill-available;}
-
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -34,12 +31,12 @@ code {
   'GRAD' 0,
   'opsz' 48
 }
+html,
+body{
+  height: 100%;
+}
 
-body {
+.fullscreen {
   min-height: 100%;
-  min-height: -webkit-fill-available;
 }
-html {
-  height: fill-available;
-  height: -webkit-fill-available;
-}
+
