@@ -4,6 +4,7 @@ import { Song } from "./song.js";
 import { db } from "./db.js";
 import "./song.css";
 import { Player } from "./player.js";
+import { NoMusic } from "./NoMusic.jsx";
 
 export function MusicList() {
   const [songId, setsongId] = useState(1);
@@ -16,12 +17,12 @@ export function MusicList() {
   const [mCurrentTime, setmCurrentTime] = useState(0);
   const [ActiveTab, setActiveTab] = useState(0);
 
-  useEffect(() => {}, []);
+
 
   const music = useLiveQuery(() => db.music.toArray());
 
   console.log(music);
-  const Songs = music?.map((music) => (
+  let Songs = music?.map((music) => (
     <Song
       key={music.id}
       setpause={setpause}
@@ -41,7 +42,9 @@ export function MusicList() {
       name={music.name}
     />
   ));
-
+  if (music && Object.keys(music).length == 0) {
+    Songs=<NoMusic/>
+  }
   useEffect(
     () => {
       if (music) {
@@ -96,6 +99,7 @@ export function MusicList() {
   );
 
   return (
+    
     <div className="   musicPleace">
       <table className="   d-inline-block  musicTable   table-dark  ">
         <thead>
@@ -111,8 +115,10 @@ export function MusicList() {
             </th>
           </tr>
         </thead>
+        <tbody className=" d-inline-block">
+        {Songs}
 
-        <tbody className=" d-inline-block">{Songs}</tbody>
+        </tbody>
       </table>
       {music && Object.keys(music).length > 0 ? (
         <Player
@@ -136,7 +142,13 @@ export function MusicList() {
           name={music[songId - 1].name}
         />
       ) : (
-        <Player />
+        <Player 
+        Mduration={0}
+        mCurrentTime={0}
+        repeat={0}
+
+
+/>
       )}
     </div>
   );
