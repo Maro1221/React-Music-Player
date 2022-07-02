@@ -228,7 +228,7 @@ th{
     
   }
   tbody{
-    height:50vh;   
+    height:calc(50vh + env(safe-area-inset-top)); 
     overflow: auto; 
            
    }
