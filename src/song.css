@@ -228,7 +228,7 @@ th{
     
   }
   tbody{
-    height:60vh;   
+    height:50vh;   
     overflow: auto; 
            
    }
@@ -267,11 +267,7 @@ th{
   font-size: 0.9rem;
 }
 
-tbody{
-  overflow: auto; 
-  min-width: 40vh;
-         
- }
+
 
  .musicPleace{
 
