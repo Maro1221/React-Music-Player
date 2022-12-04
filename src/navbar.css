@@ -1,5 +1,5 @@
 .Navbar{
-    background-color: #242629;
+    background-color: #202225;
     height: 14vh;
     border-bottom: 3px solid #7f5af0 !important;
     
@@ -40,8 +40,11 @@
 
 
 @media only screen and (max-width:576px) {
+
+
     .upload{
 font-size: 16px !important;
+margin-top: 30px !important;
     }
      
    
@@ -50,13 +53,13 @@ font-size: 16px !important;
    .uploadButton{
     font-size: 32px !important;
 left: 10vw !important;
-bottom:28% ;
+bottom:26% ;
 
        position: relative;
 }
     .logoContainer{
   
-margin-top: 15px !important;
+margin-top: 10px !important;
         height: 10vh !important;
      
     }

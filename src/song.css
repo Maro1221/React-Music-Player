@@ -1,24 +1,30 @@
 
 table {
  
-    background-color: #242629;
+    background-color: #202225;
     table-layout: fixed;
 width: 100%;
 border-bottom: 3px solid #7f5af0 !important;
+
   }
 
   .musicPleace{
+    
     border-collapse: collapse;
     border-radius: 5px;
     overflow: hidden;
     width: 100%;
-    background-color: #242629;
-    min-height: 85vh !important;
+    background-color: #1d1f21;
+    min-height: 80vh !important;
 
 
   }
 th{
   min-width: 33%;
+
+}
+th{
+  border-bottom: 3px solid #7f5af0 !important;
 
 }
 
@@ -56,7 +62,7 @@ display: none;}
     user-select: none;
 }
 input[type="text"]:disabled {
-    background: #242629;
+    background: #202225;
     border: none;
     color: #94a1b2;
     width: 27vw;
@@ -69,7 +75,7 @@ input[type="text"]:disabled {
     
   }
   input[type="text"]:enabled {
-    background: #242629;
+    background: #202225;
     border: none;
     color: #94a1b2;
     width: 27vw;
@@ -100,7 +106,7 @@ th{
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 
 /* Track */
@@ -121,7 +127,7 @@ th{
 
 
   input[type="text"]:disabled {
-    background: #242629;
+    background: #202225;
     border: none;
     color: #94a1b2;
     width: 23vw;
@@ -131,7 +137,7 @@ th{
     
   }
   input[type="text"]:enabled {
-    background: #242629;
+    background: #202225;
     border: none;
     color: #94a1b2;
     width: 23vw;
@@ -161,7 +167,7 @@ th{
 
 
   input[type="text"]:disabled {
-    background: #242629;
+    background: #202225;
     border: none;
     color: #94a1b2;
     width: 88.4% !important;
@@ -172,7 +178,7 @@ th{
     
   }
   input[type="text"]:enabled {
-    background: #242629;
+    background: #202225;
     border: none;
     color: #94a1b2;
     width: 88.4% !important;
@@ -271,7 +277,7 @@ th{
 
  .musicPleace{
 
-  height:10vh !important;
+  min-height: 78vh !important;
 
 
 }
@@ -280,7 +286,7 @@ th{
 @media only screen and (min-width:769px) and (max-width:992px) {
 
   input[type="text"]:disabled {
-    background: #242629;
+    background: #202225;
     border: none;
     color: #94a1b2;
     width: 21vw !important;
@@ -290,7 +296,7 @@ th{
     
   }
   input[type="text"]:enabled {
-    background: #242629;
+    background: #202225;
     border: none;
     color: #94a1b2;
     width: 21vw !important;

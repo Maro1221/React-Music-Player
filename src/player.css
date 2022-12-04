@@ -1,5 +1,5 @@
 .player{
-    background-color: #242629;
+    background-color: #1d1f21;
     height: 12vh !important;
 }
 
@@ -80,6 +80,8 @@ overflow:  visible !important;
     height: 3px;
     background: rgba(127, 90, 240, 0.5  );
   min-width: 100%;
+  cursor: pointer;
+
 }
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;

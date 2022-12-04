@@ -5,17 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #242629;
+  background-color: #202225;
   color: #fffffe;
+  
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
- root{
-
- }
+#root {
+  height: 0vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px
+}
 
 
 .pointer {cursor: pointer;
